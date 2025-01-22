@@ -1,4 +1,3 @@
-```markdown
 # Understanding `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 
 ## Overview
@@ -101,5 +100,3 @@ The `<meta name="viewport" content="width=device-width, initial-scale=1.0">` tag
 1. Always include this meta tag for responsive designs.
 2. Avoid setting restrictive values like `user-scalable=no` unless absolutely necessary.
 3. Test your webpage on multiple devices to ensure proper scaling.
-
-```

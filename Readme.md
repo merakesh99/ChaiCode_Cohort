@@ -7,5 +7,6 @@
 
  [Discord]()
 
-## Assignment on HTML
-  - [[01 - HTML](https://github.com/merakesh99/ChaiCode_Cohort/tree/main/html)]
+## Assignment
+  - [HTML](https://github.com/merakesh99/ChaiCode_Cohort/tree/main/html)
+
