@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        .navbar {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        li {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        li a {
+            text-decoration: none;
+            /* Remove the underline */
+            color: black;
+            /* Set the link color */
+        }
+
+        li a:hover {
+            text-decoration: underline;
+            /* Optional: Add an underline on hover */
+            color: blue;
+            /* Optional: Change color on hover */
+        }
+        ul input {
+            margin-left: 15px;
+        }
+
+        aside {
+            width: 20%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+        }
+
+        footer {
+            clear: both;
+            background-color: lightgray;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Abc of CS</h1> -->
+    <header>Abc of CS</header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./Bloglayout.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div>
+            <h2>What is Computer Science?</h2>
+            <p>Computer Science is the study of computers and computational systems. Unlike electrical and computer
+                engineers, computer scientists deal mostly with software and software systems; this includes their
+                theory, design, development, and application.</p>
+        </div>
+        <form action="">
+            <input type="search" name="search" id="search" aria-label="enter search" required>
+            <input type="submit" value="Submit">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label">Read
+                more</a>
+            <button aria-label="Close" onclick="myDialog.close()">
+                <svg aria-hidden="true" focusable="false" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="m.967 14.217 5.8-5.906-5.765-5.89L3.094.26l5.783 5.888L14.66.26l2.092 2.162-5.766 5.889 5.801 5.906-2.092 2.162-5.818-5.924-5.818 5.924-2.092-2.162Z"
+                        fill="#000" />
+                </svg>
+            </button>
+
+        </form>
+
+    </main>
+
+    <aside>
+        <h3>More Information</h3>
+        <p>Computer Science is the study of computers and computational systems. Unlike electrical and computer
+            engineers, computer scientists deal mostly with software and software systems; this includes their theory,
+            design, development, and application.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Abc of CS</p>
+    </footer>
+</body>
+
+</html>
