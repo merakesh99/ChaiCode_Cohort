@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .our-para {
+            color: red;
+            font-size: 20px;
+        }
+
+        #my-para {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
+<body>
+    <p class="our-para" id="my-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus mollitia totam
+        at doloribus animi earum, similique cupiditate, laudantium, a quia reprehenderit vero dignissimos? Quia
+        consectetur nihil, a suscipit fuga harum. Sapiente unde repellat dolor soluta sint repudiandae id? Accusantium
+        cupiditate exercitationem laborum modi iure ducimus.</p>
+
+    <a href="#" title="I am Title Attribute" target="_blank">Anchor Tag</a>
+
+    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+    <p style="font-size: xx-large;">Chai Code</p>
+
+
+    <!-- data-* attribute to store custom data -->
+    <div id="myDiv" data-my-custom-data="Hello World" onclick="hello()">
+        <span id="myvalue">Click me to see the custom data<button>Show</button></span>
+    </div>
+
+
+</body>
+<script>
+    function hello() {
+        let data = myDiv.getAttribute("data-my-custom-data");
+        console.log(data);
+        // alert(data);
+        // chage the data attribute value
+        // myDiv.setAttribute("data-my-custom-data", "Hello Chai Code");
+        // console.log(myDiv.getAttribute("data-my-custom-data"));
+
+        myvalue.innerHTML = data;
+        console.log(myvalue.innerHTML);
+        
+    }
+
+</script>
+
+</html>
