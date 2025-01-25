@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw with Canvas</title>
+    <style>
+        canvas {
+            border: 8px solid rgba(249, 241, 0, 0.418);
+            width: 990px;
+            height: 400px;     
+        }
+        #rectangle {
+            background-color: rgb(8, 5, 5);
+        }
+    </style>
+   
+</head>
+<body>
+    <canvas id="rectangle"></canvas>
+</body>
+
+<script>
+    var value = document.getElementById("rectangle");
+    var value2d =value.getContext("2d");
+    value2d.fillStyle = "Red"
+
+    value2d.fillRect(10,20,150,100)
+</script>
+</html>
